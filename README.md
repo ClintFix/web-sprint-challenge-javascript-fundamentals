@@ -26,14 +26,22 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+forEach will iterate through every single item in an array. .map can exit based on return. for each does not return a new array. .map does. 
 
 2. Explain the difference between a callback and a higher order function.
+a callback is a function inside another function (the higher order function).
 
 3. What is closure?
+when a variable that's being referenced has to reach to the parent to get the value. 
 
 4. Describe the four rules of the 'this' keyword.
+   1. global/window scope: .this binds to window/global scope when can't find it otherwise
+   2. implicit binding: most common. look to left of the dot when function is invoked. this refers to that.
+   3. new binding: this points to the newly created object that's created from invocation of a constructor function
+   4. explicit binding: call(), bind(), apply() methods explicity binded by this. 
 
 5. Why do we need super() in an extended class?
+    super() is needed so that the child can inherit the parent's attributes.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
@@ -58,17 +66,17 @@ Your finished project must include all of the following requirements
 #### Task A: Closure
 
 This challenge takes a look at closures as well as scope. 
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task B: Objects and Arrays
 
 Test your knowledge of advanced array methods and callbacks.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task C: Prototypes
 
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Find this challenge in the index.js file. Read the instructions carefully!
+* [x] Find this challenge in the index.js file. Read the instructions carefully!
 
 #### Task D: Classes
 
